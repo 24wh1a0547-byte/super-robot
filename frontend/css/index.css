@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    height: 35vh;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    background-color: #f5f5f5;
+}
+.pill{
+    position: fixed;
+    top: 20px;
+    right:10px;
+}
+.gear{
+    position: fixed;
+    top: 20px;
+    left:10px;
+}
+.search {
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+.being {
+    color: purple; 
+}
+.being {
+    background: linear-gradient(90deg, #2563eb, #7c3aed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p {
+    color: grey;
+}
+.lens{
+    position: relative;
+    top: 2px;
+    bottom : 20px;
+    left : 28px;
+    right : 10px;
+}
+.search-box{
+     border-radius: 20px;
+     padding-left: 28px;
+     padding-right: 10px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+}
